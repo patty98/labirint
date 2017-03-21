@@ -1,1 +1,26 @@
-void main (void)
+#include <stdio.h>
+#define col_count 20
+#define row_count 21
+int maps[col_count][row_count];
+
+/*Поиск по массиву конца лабиринта*/
+int col = 1;
+int row = 1;
+int a = 1;
+int c;
+int x = 0;
+while (c<col)
+{
+	x = maps[col][row]
+		if (x == -1)
+		{
+			maps[col][row] = a
+		} /*конец if*/
+	x = 0;
+	col++;
+	row++;
+	a++;
+}/*конец while*/
+{int main(void)
+
+}
